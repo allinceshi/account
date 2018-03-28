@@ -1,0 +1,9 @@
+钻石充值：UPDATE  user_money_account s set s.IDOU =900000 
+where s.USER_ID = (select t.USER_ID from user_details_info t where t.nike_name = "浪友")
+
+
+查询用户信息：select * from user_details_info t where t.nike_name= "左先生"
+
+select game_id from mtt_record where mtt_name
+
+查找mtt房间号：SELECT * from mtt_record t where t.mtt_name = "猎人"
